@@ -13,17 +13,17 @@
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: var(--bs-dark);
+  background-color: #8a8a8a;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-  background-color: var(--bs-dark);
+  width: 8px;
+  height: 8px;
+  background-color: var(--bs-warning);
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, var(--bs-blue)), color-stop(0.72, var(--bs-warning)), color-stop(0.86, var(--bs-blue)));
+  border-radius: 8px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, var(--bs-blue)), color-stop(0.72, var(--bs-blue)), color-stop(0.86, var(--bs-blue)));
 }
